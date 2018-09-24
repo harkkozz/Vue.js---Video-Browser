@@ -1,4 +1,4 @@
-# video-browser
+# video-browser getting Youtube videos using Youtube API
 
 ## Project setup
 ```
