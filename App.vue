@@ -14,7 +14,7 @@ import axios from 'axios'
 import SearchBar from './components/SearchBar'
 import VideoList from './components/VideoList'
 import VideoDetail from './components/VideoDetail'
-import config from '../config/config.js'
+import config from '../config/config'
 
 const API = config.API_KEY
 
@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     onTermChange(searchTerm) {
-      axios.get('https://www.googleapis.com/youtube/v3/search', {
+      axios.get('/', {
         params: {
           key: API,
           type: 'video',
