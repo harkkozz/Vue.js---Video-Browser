@@ -17,7 +17,7 @@ import VideoDetail from './components/VideoDetail'
 import config from '../config/config.js'
 
 const API = config.API_KEY
-// 'AIzaSyDyVuGC3OAnG-mFnDpISEVrg3YwadVt5xI'
+
 export default {
   name: 'App',
   data() {
